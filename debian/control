@@ -2,7 +2,6 @@ Source: aspell-id
 Section: text
 Priority: optional
 Maintainer: Blankon Develovers <Blankon-dev@googlegroups.com>
-DM-Upload-Allowed: yes
 Build-Depends: debhelper (>= 5),
                cdbs (>= 0.4.0),
                dictionaries-common-dev (>= 0.9.1),

@@ -1,0 +1,22 @@
+Source: aspell-id
+Section: text
+Priority: optional
+Maintainer: Blankon Develovers <Blankon-dev@googlegroups.com>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 5),
+               cdbs (>= 0.4.0),
+               dictionaries-common-dev (>= 0.9.1),
+Homepage: http://translationproject.org/team/id.html
+Vcs-Browser: http://git.debian.org/?p=collab-maint/aspell-id.git
+Vcs-Git: git://git.debian.org/collab-maint/aspell-id.git
+Standards-Version: 3.9.1
+
+Package: aspell-id
+Architecture: all
+Depends: ${misc:Depends},
+         aspell (>= 0.60.3-2),
+         dictionaries-common (>= 0.49.2)
+Provides: aspell-dictionary
+Description: Indonesian (id) dictionary for GNU aspell
+ This package contains the required files to add support for the Indonesian
+ (id) language to the GNU Aspell/MySpell/Ispell checker.
